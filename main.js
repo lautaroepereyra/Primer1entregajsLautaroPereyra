@@ -28,6 +28,7 @@ if (pregunta == "SI") {
             alert("No ingreso un producto disponible");
             break;
     }
+    saludar();
 } else {
     alert ("Gracias por su visita, Lo Esperamos nuevamente");
 }
@@ -35,5 +36,3 @@ if (pregunta == "SI") {
 function saludar() {
     alert("Gracias: " + nombre + " " + "Su orden esta siendo procesada, lo contactaremos");
 }
-
-saludar();
